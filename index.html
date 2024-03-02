@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>To-Do List</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1 class="h1">My To-Do List</h1>
+    <form>
+        <input type="text" class="input-box" placeholder="Enter Name of Task" required />
+        <button class="submit-button" type="submit" onclick="getMessage()">Submit</button><br><br>
+        <input class="add-date-time" type="datetime-local" required /><br><br>
+    </form>
+    <div id="result"></div>
+</body>
+
+</html>

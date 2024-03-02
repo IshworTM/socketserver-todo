@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: none;
+    padding: none;
+    background-color: coral;
+}
+
+.h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.submit-button {
+    font-size: 19px;
+    color: maroon;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    /* margin-left: 20px; */
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #04AA6D;
+    border: 2px solid rgb(45, 106, 45);
+    border-radius: 8px;
+}
+
+.submit-button:hover {
+    background-color: #086643;
+}
+
+#result {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.task-container {
+    margin-left: 35vh;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    width: 42vw;
+    height: 15%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.check {
+    background-color:#00bc00;
+}
+
+.task-card {
+    margin-left: 10px;
+    color: #0b035c;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.task-counter{
+    margin-left: 5px;
+    font-size: 19px;
+    padding: none;
+    color: #086643;
+}
+
+.icons-section{
+    position: static;
+    justify-content:flex-end;
+}
+
+.check-button {
+    padding: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.check-button:hover {
+    background-color: #0ea905;
+}
+
+.check-icon{
+    color: green;
+}
+
+.delete-button {
+    padding: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.delete-button:hover {
+    background-color: rgb(176, 17, 17);
+}
+
+.delete-icon{
+    color: red;
+}
+
+.edit-button{
+    padding: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.edit-button:hover{
+    background-color: #086643;
+}
+
+.done-button{
+    padding: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.done-button:hover{
+    background-color: lightgreen;
+}
+
+.date-time{
+    font-size:13px;
+    color:crimson;
+}
+
+input[type="text" i] {
+    width: 40vw;
+    height: 5vh;
+    outline: none;
+    border-radius: 10px;
+}
